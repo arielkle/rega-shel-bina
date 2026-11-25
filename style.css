@@ -257,3 +257,9 @@ nav li.home.on a{background:var(--teal)}
 .cover-menu .toc-item{font-size:19px;padding:12px 20px}
 .cover-intro{padding-top:30px}
 .cover-page .foot-rights{margin-top:0;font-size:15px}
+
+/* כרטיס קישור לאתר חיצוני */
+.link-card{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap;background:var(--surface);border-radius:var(--radius);padding:26px 28px;border:3px solid var(--lav-soft);box-shadow:0 10px 30px rgba(187,168,236,.25)}
+.link-text h3{font-family:var(--display);font-weight:400;font-size:26px;margin:0 0 4px}
+.link-text p{margin:0;color:var(--muted)}
+.link-btn{font-size:20px;padding:14px 34px}
