@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>רגע של בינה - יוצרים משחק חינוכי</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="index.html" aria-label="רגע של בינה - לדף הבית">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#8FDCDC"/><path d="M12 22c0-5 3.6-9 8-9s8 4 8 9c0 3-1.6 5-4 6v2h-8v-2c-2.4-1-4-3-4-6z" fill="#FFF0B3"/><rect x="16" y="31" width="8" height="2.5" rx="1.2" fill="#fff"/></svg>
+      רגע של בינה
+    </a>
+    <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="site-nav"><span class="menu-ic" aria-hidden="true"></span>תפריט</button>
+    <nav id="site-nav" aria-label="תפריט האתר">
+      <ol>
+        <li class="home"><a href="index.html">דף הבית</a></li>
+        <li><a href="ai.html"><b>1</b>מה זו בינה מלאכותית</a></li>
+        <li><a href="tools.html"><b>2</b>מגיעים לכלי הבינה</a></li>
+        <li><a href="prompt.html"><b>3</b>מהו פרומפט</a></li>
+        <li><a href="lesson.html"><b>4</b>יוצרים מערך שיעור</a></li>
+        <li><a href="info.html"><b>5</b>דף מידע למורה</a></li>
+        <li><a href="web.html"><b>6</b>יוצרים אתר אינטרנט</a></li>
+        <li class="on"><a aria-current="page" href="game.html"><b>7</b>יוצרים משחק חינוכי</a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero solo">
+    <div>
+      <span class="tag">שלב 7 מתוך 7</span>
+      <h1>יוצרים <mark>משחק חינוכי</mark></h1>
+      <p class="lead">נבנה בעזרת הבינה המלאכותית משחק זיכרון על דבורת הדבש, נפרסם אותו ונשתף אותו עם התלמידים.</p>
+    </div>
+  </section>
+
+  <section id="slides" class="part-block" aria-labelledby="slides-title">
+    <div class="block-head hd1">
+      <h2 id="slides-title" class="sec">המצגת: איך יוצרים משחק חינוכי</h2>
+      <p class="sub">עוברים בין השקפים בחצים או במקשי החצים במקלדת.</p>
+    </div>
+    <div class="viewer" data-name="game" data-count="11" tabindex="0" role="group" aria-label="מצגת: יוצרים משחק חינוכי">
+      <div class="stage"><img class="slide" src="slides/game-01.jpg" alt="שקף 1 מתוך 11" width="1600" height="900"></div>
+      <div class="controls">
+        <button class="vb prev" type="button" aria-label="לשקף הקודם">&rarr; הקודם</button>
+        <span class="count" aria-live="polite">שקף 1 מתוך 11</span>
+        <button class="vb next" type="button" aria-label="לשקף הבא">הבא &larr;</button>
+        <button class="vb fs" type="button">מסך מלא</button>
+      </div>
+      <div class="bar-progress" aria-hidden="true"><span></span></div>
+    </div>
+  </section>
+
+  <section id="prompt" class="part-block" aria-labelledby="prompt-title">
+    <div class="block-head hd2">
+      <h2 id="prompt-title" class="sec">הפרומפט: דוגמה ליצירת משחק זיכרון על דבורת הדבש</h2>
+      <p class="sub">הפרומפט בנוי מארבעת המרכיבים, בתוספת דרישות טכנולוגיות, ומתבסס על מערך השיעור ועל דף המידע.</p>
+    </div>
+    <figure class="figure">
+      <img src="game-prompt-infographic.png" width="941" height="1672" loading="lazy"
+           alt="אינפוגרפיקה: דוגמה לפרומפט ליצירת משחק זיכרון למערך שיעור על דבורת הדבש. החלקים: תפקיד, משימה, הקשר ורקע, מבנה וסגנון עם שלוש רמות, ודרישות טכנולוגיות. הטקסט המלא מופיע מתחת לאינפוגרפיקה.">
+      <figcaption>
+        <span>אינפוגרפיקה: פרומפט ליצירת משחק זיכרון</span>
+        <a href="game-prompt-infographic.png" target="_blank" rel="noopener">פתיחה בגודל מלא</a>
+      </figcaption>
+    </figure>
+
+    <h3 class="subhead">הטקסט המלא של הפרומפט</h3>
+    <p class="sub">אפשר להעתיק אותו, להדביק בכלי הבינה ולשנות את הנושא והכיתה לפי הצורך.</p>
+    <div class="parts one" id="prompt-parts">
+      <article class="part p2">
+        <h3>תפקיד</h3>
+        <div class="body"><p>אתה מומחה לטכנו-פדגוגיה בחינוך המיוחד, בעל ניסיון בפיתוח משחקים לימודיים דיגיטליים, במשחוק ובהתאמת פעילויות לתלמידים עם עיכוב שפתי.</p></div>
+      </article>
+      <article class="part p1">
+        <h3>משימה</h3>
+        <div class="body"><p>צור משחק זיכרון דיגיטלי, חווייתי ואינטראקטיבי בנושא דבורת הדבש, המבוסס על מערך השיעור ודף המידע למורה. מטרת המשחק היא לחזק מושגים, להעשיר אוצר מילים ולתרגל התאמה בין תמונות, מילים ומשפטים.</p></div>
+      </article>
+      <article class="part p4">
+        <h3>הקשר ורקע</h3>
+        <div class="body"><p>המשחק מיועד לתלמידי כיתה ג׳ בחינוך המיוחד עם עיכוב שפתי. יש לשלב הוראות קצרות, המחשות חזותיות, חזרתיות, תיווך שפתי ומשוב חיובי. המושגים המרכזיים יכולים לכלול: דבורה, כוורת, פרח, צוף, דבש, מחושים, כנפיים, חדק וחלת דבש.</p></div>
+      </article>
+      <article class="part p3">
+        <h3>מבנה וסגנון</h3>
+        <div class="body">
+          <p>בנה את המשחק בשלוש רמות:</p>
+          <ol>
+            <li>רמה 1 – תמונה לתמונה</li>
+            <li>רמה 2 – תמונה למילה</li>
+            <li>רמה 3 – תמונה למשפט (לדוגמה: "הדבורה מוצצת צוף מהפרח.")</li>
+          </ol>
+          <ul>
+            <li>מסך פתיחה צבעוני ומזמין.</li>
+            <li>קלפים גדולים המתהפכים בלחיצה.</li>
+            <li>משוב מיידי וחיובי.</li>
+            <li>הקראה קולית בהתאם לתמיכת הדפדפן.</li>
+            <li>מד התקדמות ומסך סיום חגיגי.</li>
+            <li>ללא הגבלת זמן וללא ענישה על טעויות.</li>
+          </ul>
+        </div>
+      </article>
+      <article class="part p5">
+        <h3>דרישות טכנולוגיות</h3>
+        <div class="body">
+          <ul>
+            <li>המשחק חייב להיות בפורמט HTML (קובץ אחד).</li>
+            <li>יכלול את כל קוד ה-HTML, CSS ו-JavaScript.</li>
+            <li>בעברית ובתצוגה מימין לשמאל (RTL).</li>
+            <li>מותאם למחשב, לטאבלט ולנייד.</li>
+            <li>מוכן להפעלה בדפדפן באופן מלא.</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <div class="copy-row">
+      <button class="btn" type="button" id="copy-prompt">העתקת הפרומפט</button>
+      <span id="copy-status" role="status" aria-live="polite"></span>
+    </div>
+  </section>
+
+  <section id="result" class="part-block" aria-labelledby="result-title">
+    <div class="block-head hd1">
+      <h2 id="result-title" class="sec">התוצר: המשחק שיצרנו</h2>
+      <p class="sub">כך נראה המשחק שהתקבל מהפרומפט, אחרי הפרסום ב-Google Sites. אפשר ללחוץ על הקלפים ולשחק.</p>
+    </div>
+    <div class="doc-box">
+      <iframe src="https://sites.google.com/educ.org.il/devoragame/full-page-embed" title="המשחק שיצרנו: משחק זיכרון על דבורת הדבש" loading="lazy" allowfullscreen></iframe>
+      <p class="video-note">אם המשחק לא נטען, אפשר <a href="https://sites.google.com/educ.org.il/devoragame" target="_blank" rel="noopener">לפתוח אותו בחלון חדש</a>.</p>
+    </div>
+    <p class="check-note"><strong>לפני ששולחים לתלמידים:</strong> משחקים בעצמכם בכל שלוש הרמות ובודקים שהתמונות, המילים והמשפטים מתאימים לתלמידים שלכם.</p>
+  </section>
+
+  <section class="next" aria-labelledby="next-title">
+    <div>
+      <h2 id="next-title">סיימנו את המסלול</h2>
+      <p>עכשיו תורכם: נסו לכתוב פרומפט משלכם לנושא שאתם מלמדים.</p>
+    </div>
+    <div class="btns">
+      <a class="btn ghost" href="web.html">לעמוד הקודם</a>
+      <a class="btn" href="index.html">חזרה לעמוד השער</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="foot-in">
+    <strong class="foot-name">אריאל קלפנר</strong>
+    <span class="foot-role">מומחה לשילוב בינה מלאכותית בתהליכי הוראה, למידה והערכה</span>
+    <span class="foot-phone">טלפון: <bdi dir="ltr">050-9540538</bdi></span>
+    <span class="foot-rights">כל הזכויות שמורות לאריאל קלפנר ©</span>
+  </div>
+</footer>
+
+<script src="viewer.js"></script>
+<script>
+(function(){
+  var btn=document.getElementById('copy-prompt'),st=document.getElementById('copy-status');
+  function text(){
+    return Array.prototype.map.call(document.querySelectorAll('#prompt-parts .part'),function(p){
+      var out=[];
+      p.querySelectorAll('.body > *').forEach(function(el){
+        if(el.tagName==='UL'){el.querySelectorAll('li').forEach(function(li){out.push('- '+li.textContent);});}
+        else if(el.tagName==='OL'){el.querySelectorAll('li').forEach(function(li,k){out.push((k+1)+'. '+li.textContent);});}
+        else{out.push(el.textContent);}
+      });
+      return p.querySelector('h3').textContent+': '+out.join('\n');
+    }).join('\n\n');
+  }
+  function done(msg){st.textContent=msg;setTimeout(function(){st.textContent='';},3000);}
+  btn.addEventListener('click',function(){
+    var t=text();
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t).then(function(){done('הפרומפט הועתק');},fallback);
+    }else{fallback();}
+    function fallback(){
+      var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+      try{document.execCommand('copy');done('הפרומפט הועתק');}catch(e){done('ההעתקה לא הצליחה, סמנו את הטקסט והעתיקו ידנית');}
+      document.body.removeChild(ta);
+    }
+  });
+})();
+</script>
+<script src="menu.js"></script>
+</body>
+</html>

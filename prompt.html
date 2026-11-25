@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>רגע של בינה - מהו פרומפט</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <a class="brand" href="index.html" aria-label="רגע של בינה - לדף הבית">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#8FDCDC"/><path d="M12 22c0-5 3.6-9 8-9s8 4 8 9c0 3-1.6 5-4 6v2h-8v-2c-2.4-1-4-3-4-6z" fill="#FFF0B3"/><rect x="16" y="31" width="8" height="2.5" rx="1.2" fill="#fff"/></svg>
+      רגע של בינה
+    </a>
+    <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="site-nav"><span class="menu-ic" aria-hidden="true"></span>תפריט</button>
+    <nav id="site-nav" aria-label="תפריט האתר">
+      <ol>
+        <li class="home"><a href="index.html">דף הבית</a></li>
+        <li><a href="ai.html"><b>1</b>מה זו בינה מלאכותית</a></li>
+        <li><a href="tools.html"><b>2</b>מגיעים לכלי הבינה</a></li>
+        <li class="on"><a aria-current="page" href="prompt.html"><b>3</b>מהו פרומפט</a></li>
+        <li><a href="lesson.html"><b>4</b>יוצרים מערך שיעור</a></li>
+        <li><a href="info.html"><b>5</b>דף מידע למורה</a></li>
+        <li><a href="web.html"><b>6</b>יוצרים אתר אינטרנט</a></li>
+        <li><a href="game.html"><b>7</b>יוצרים משחק חינוכי</a></li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero solo">
+    <div>
+      <span class="tag">שלב 3 מתוך 7</span>
+      <h1>מהו <mark>פרומפט</mark>?</h1>
+      <p class="lead">פרומפט הוא ההנחיה שאנחנו נותנים לבינה המלאכותית. האינפוגרפיקה מסבירה ממה בנוי פרומפט טוב.</p>
+    </div>
+  </section>
+
+  <figure class="figure">
+    <img src="prompt-infographic.png" width="1055" height="1491"
+         alt="אינפוגרפיקה: מהו פרומפט? פרומפט (Prompt) הוא ההנחיה, השאלה או הטקסט שמזינים למערכת בינה מלאכותית כמו Copilot, Gemini, ChatGPT או Claude כדי לקבל תוצאה ספציפית. ארבעת המרכיבים של פרומפט אפקטיבי: תפקיד, משימה, הקשר ורקע, מבנה וסגנון.">
+    <figcaption>
+      <span>אינפוגרפיקה: מהו פרומפט ומה המבנה של פרומפט אפקטיבי</span>
+      <a href="prompt-infographic.png" target="_blank" rel="noopener">פתיחה בגודל מלא</a>
+    </figcaption>
+  </figure>
+
+  <h2 class="sec">ארבעת המרכיבים בקצרה</h2>
+  <p class="sub">כך אפשר לזכור אותם כשכותבים בקשה לבינה מלאכותית.</p>
+  <div class="parts">
+    <article class="part p1">
+      <h3>תפקיד</h3>
+      <p>הגדירו את סוג המומחה או הדמות שעל המערכת לייצג.</p>
+    </article>
+    <article class="part p2">
+      <h3>משימה</h3>
+      <p>הגדירו בבירור את המשימה של הבינה המלאכותית.</p>
+    </article>
+    <article class="part p3">
+      <h3>הקשר ורקע</h3>
+      <p>ספקו מידע נוסף שיעזור להבין טוב יותר את המשימה ולתת תשובה מתאימה.</p>
+    </article>
+    <article class="part p4">
+      <h3>מבנה וסגנון</h3>
+      <p>בחרו את מבנה התשובה וסגנון הכתיבה הרצוי.</p>
+    </article>
+  </div>
+
+  <h2 class="sec">ההבדל בפועל</h2>
+  <p class="sub">אותה בקשה, פעם אחת כללית ופעם אחת עם ארבעת המרכיבים.</p>
+  <div class="example">
+    <div class="ex">
+      <span class="label">פרומפט כללי</span>
+      <blockquote>כתוב לי דף עבודה על שברים.</blockquote>
+    </div>
+    <div class="ex good">
+      <span class="label">פרומפט עם ארבעת המרכיבים</span>
+      <blockquote><strong>תפקיד:</strong> את מורה מנוסה למתמטיקה בבית ספר יסודי.<br>
+      <strong>משימה:</strong> כתבי דף עבודה על חיבור שברים.<br>
+      <strong>הקשר:</strong> כיתה ה', רמה מעורבת, 20 דקות עבודה.<br>
+      <strong>מבנה וסגנון:</strong> שמונה תרגילים מהקל אל הקשה, בשפה פשוטה וידידותית.</blockquote>
+    </div>
+  </div>
+
+  <h2 class="sec">רגע לחשוב</h2>
+  <p class="sub">שאלות לשיחה בזוגות.</p>
+  <div class="think">
+    <div class="q"><span>1</span><p>איזה מרכיב הכי קל לי לנסח, ואיזה הכי מאתגר?</p></div>
+    <div class="q"><span>2</span><p>איזה תפקיד הייתי נותן לבינה המלאכותית בשיעור הבא שלי?</p></div>
+  </div>
+
+  <section class="next" aria-labelledby="next-title">
+    <div>
+      <h2 id="next-title">הבא בתור: יוצרים מערך שיעור</h2>
+      <p>נכתוב פרומפט ונקבל מהבינה המלאכותית מערך שיעור מוכן.</p>
+    </div>
+    <div class="btns">
+      <a class="btn ghost" href="tools.html">לעמוד הקודם</a>
+      <a class="btn" href="lesson.html">לעמוד הבא</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="foot-in">
+    <strong class="foot-name">אריאל קלפנר</strong>
+    <span class="foot-role">מומחה לשילוב בינה מלאכותית בתהליכי הוראה, למידה והערכה</span>
+    <span class="foot-phone">טלפון: <bdi dir="ltr">050-9540538</bdi></span>
+    <span class="foot-rights">כל הזכויות שמורות לאריאל קלפנר ©</span>
+  </div>
+</footer>
+<script src="menu.js"></script>
+</body>
+</html>
